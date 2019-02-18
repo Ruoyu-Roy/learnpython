@@ -1,1 +1,12 @@
 Notes:
+
+1. Unicode: A 32-bit way fo presenting characters.
+
+2. UTF-8: Unicode Transformation Format 8 Bits. A convention that compress 32 bits message into 8 bits.
+
+3. b'': python use b'' to tell itself it works with raw bytes.
+
+4. If you have raw bytes, you must use .decode() to get the string.
+
+5. Sometimes python don't know how to "encode" certain string, like 你好, because python don't know
+        what convention you need. You must use .encode() to get the bytes you need.
